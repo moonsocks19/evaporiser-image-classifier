@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Model checkpoints (large; reproduce via notebooks/evaporiser_classifier_v2.ipynb)
+models/
+best_models/
+*.pt
+*.pth
+
+# Dataset caches & logs
+data/
+wandb/
+
+# Environment / secrets
+.env
+*.key
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
